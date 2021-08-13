@@ -101,3 +101,19 @@ with adjustments to the original code) */
     border-radius: 50%;
 }
 
+/* palette icon style */
+
+#icon {
+    padding: 10px 0 85px 0;
+}
+
+#icon a{
+   text-decoration: none;
+   color: #2C2C2C;
+   font-size: 400%;
+}
+
+#icon a:hover {
+    color: #005C7E;
+    font-size: 500%; 
+}
