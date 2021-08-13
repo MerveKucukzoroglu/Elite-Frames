@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Tangerine:wght@700&display=swap');
 
 /* page body structure */
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300%;
@@ -14,6 +15,7 @@ body {
     line-height: 20px;
     letter-spacing: 2px;
 }
+
 
 /* logo and navigation bar */
 
@@ -31,7 +33,7 @@ body {
 #navbar {
     text-transform: uppercase;
     text-decoration: none;
-    
+
     float: right;
     text-align: left;
     font-size: 120%;
@@ -59,3 +61,43 @@ nav a {
     background-color: #005C7E;
     color: #FFFCEF; 
 }
+
+
+/* headings and <h2> */
+
+#title {
+    font-size: 170%;
+    letter-spacing: 4px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 40px;
+    clear: both;
+    color: #43181E;
+}
+
+/* home page cirle image
+(circle container idea from Love Running project
+with adjustments to the original code) */
+
+#circle {
+    width: 300px;
+    height: 300px;
+
+    padding: 10px;
+    margin: 0 auto;
+    float: center;
+    clear: both;
+
+    border-style: solid;
+    border-color: #CCC;
+    border-width: 1px;
+    border-radius: 50%;
+}
+
+#circle-bg {
+    background: url('../images/main-image.png') no-repeat center center;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
