@@ -1,21 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Tangerine:wght@700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
+/* page body structure */
 body {
     font-family: Lato, sans-serif;
     font-weight: 300%;
 
-    background-color: #fffcef;
-    color: #2c2c2c;
+    background-color: #FFFCEF;
+    color: #2C2C2C;
 
     text-align: center;
     float: center;
 
     line-height: 20px;
     letter-spacing: 2px;
+}
+
+/* logo and navigation bar */
+
+#logo {
+    font-family: Tangerine, sans-serif;
+    font-size: 500%;
+    
+    text-align: left;
+    float: left;
+    margin: 20px;
+
+    color: #005C7E;
+}
+
+#navbar {
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    float: right;
+    text-align: left;
+    font-size: 120%;
+}
+
+#navbar, #logo {
+    line-height: 75px;
+    letter-spacing: 4px;
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: #005C7E;
+}
+
+#navbar a:hover {
+    border-bottom: 1px solid;
+    background-color: #005C7E;
+    color: #FFFCEF;
+}
+
+.active {
+    background-color: #005C7E;
+    color: #FFFCEF; 
 }
