@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta name="description" content="Digital art for artists and art-lovers">
+    <meta name="keywords" content="digital art, digital painting, art, digital design, palette, digital palette">
+
+    <!--Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Digital Palette</title>
@@ -21,7 +24,39 @@
             <a href="contact.html" class="active">Contact</a>
         </nav>
     </header>
-    contact form
+    <section id="form-section">
+        <h1 id="title">Contact</h1>
+        
+        <!-- Contact form-->
+        <form id="contact-form" action="mkucukzoroglu@gmail.com" method="POST">
+            
+            <label for="fname">First Name</label>
+            <input id="fname" name="first_name" type="text" required> 
+
+            <label for="lname">Last Name</label>
+            <input id="lname" name="first_name" type="text" required>
+            
+            <label for="email">Email Address</label>
+            <input id="email" name="email_address" type="email" required> 
+
+            <label for="reason">Contact Reason</label>
+
+            <label for="collab">Collaboration</label>
+            <input id="collab" type="radio" name="contact_reason" value="collab" required>
+
+            <label for="buy">Buy</label>
+            <input id="buy" type="radio" name="contact_reason" value="buy">
+            
+            <label for="other">Other</label>
+            <input id="other" type="radio" name="contact_reason" value="other">
+
+            <label for="textarea">Message</label>
+            <textarea name="textarea" id="textarea" placeholder="Write your message here..." rows="10" cols="40"></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
     <footer>
         <a href="contact.html" class="contact">Contact</a>
         <a href="https://www.instagram.com/wanderermerve/" class="social-media" target="_blank"><i class="fab fa-instagram"></i></a>

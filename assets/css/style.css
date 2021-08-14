@@ -147,3 +147,13 @@ footer {
     color:#FFFCEF;
     padding: 30px 30px 20px 30px;
 }
+
+/* CONTACT FORM */
+
+#form-section {
+    clear: both;
+    background: url('../images/sky-image.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
