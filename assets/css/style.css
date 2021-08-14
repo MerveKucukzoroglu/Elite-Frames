@@ -69,6 +69,7 @@ nav a {
     font-size: 170%;
     letter-spacing: 4px;
     line-height: 20px;
+    font-weight: bolder;
     text-transform: uppercase;
     margin: 40px;
     clear: both;
@@ -109,7 +110,7 @@ with adjustments to the original code) */
 
 #icon a{
    text-decoration: none;
-   color: #2C2C2C;
+   color: #43181E;
    font-size: 400%;
 }
 
@@ -151,9 +152,57 @@ footer {
 /* CONTACT FORM */
 
 #form-section {
-    clear: both;
-    background: url('../images/sky-image.png'); 
-    background-size: cover;
-    background-position: center;
-    height: 900px;
+    padding-bottom: 85px;
+}
+#contact-form {
+    float:center;
+    margin: auto;
+    padding: 30px;
+
+    max-width: 400px;
+    border-radius: 20px;
+
+    color: #FFFCEF;
+    background-color: #43181E;
+    
+}
+.text-input{
+    height: 25px;
+}
+.text-input, #textarea {
+    background: #79494C;
+    color: #FFFCEF;
+    width: 100%;
+    
+    margin: 5px 0 20px 0;
+    border: 1px solid #FFFCEF;
+    border-radius: 15px;
+}
+
+.contact-reason {
+    margin: 5px 0 20px 0;
+}
+
+.text-input:hover, #textarea:hover {
+    border-color: #2C2C2C;
+}
+
+.submit-button {
+    margin:auto;
+    padding: 15px 32px 15px 32px;
+    
+    border: 1px solid #FFFCEF;
+    border-radius: 15px;
+    
+    text-align: center;
+    font-size: 100%;
+    display: block;
+
+    background-color: #79494C;
+    color: #FFFCEF;
+}
+
+.submit-button:hover {
+    background-color: #FFFCEF;
+    color: #005C7E;
 }
