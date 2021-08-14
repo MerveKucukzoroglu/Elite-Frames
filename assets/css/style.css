@@ -117,3 +117,33 @@ with adjustments to the original code) */
     color: #005C7E;
     font-size: 500%; 
 }
+
+/* footer */
+
+footer {
+    height: 75px;
+    margin-top: 30px;
+    background-color: #2C2C2C;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.contact {
+    text-transform: uppercase;
+    font-size: 120%;
+    float: left;
+    letter-spacing: 4px;
+}
+
+.social-media {
+    float: right;
+    font-size: 150%;
+}
+
+.contact, .social-media {
+    text-decoration: none;
+    color:#FFFCEF;
+    padding: 30px 30px 20px 30px;
+}
