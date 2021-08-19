@@ -17,7 +17,7 @@ body {
 
 /* logo and navigation bar */
 
-#logo {
+.logo {
     font-family: Tangerine, sans-serif;
     font-size: 600%;
     
@@ -28,7 +28,17 @@ body {
     color: #005C7E;
 }
 
-#navbar {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+}
+
+.navbar {
     text-transform: uppercase;
     text-decoration: none;
 
@@ -37,7 +47,7 @@ body {
     font-size: 120%;
 }
 
-#navbar, #logo {
+.navbar, .logo {
     line-height: 75px;
     letter-spacing: 4px;
     margin: 20px;
@@ -49,7 +59,7 @@ a {
     color: #005C7E;
 }
 
-#navbar a:hover {
+.navbar a:hover {
     border-bottom: 1px solid;
     background-color: #005C7E;
     color: #FFFCEF;
@@ -152,7 +162,6 @@ footer {
     padding-bottom: 85px;
 }
 #contact-form {
-    float:center;
     margin: auto;
     padding: 30px;
 
@@ -209,7 +218,6 @@ footer {
 #flexbox {
     box-sizing: border-box;
     padding: 20px; 
-    float: center;
     width:70%;
     margin: auto;
 }
