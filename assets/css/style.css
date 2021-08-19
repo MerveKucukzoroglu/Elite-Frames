@@ -129,8 +129,7 @@ with adjustments to the original code) */
 /* footer */
 
 footer {
-    height: 75px;
-    margin-top: 30px;
+    height: 60px;
     background-color: #2C2C2C;
     position: fixed;
     bottom: 0;
@@ -153,7 +152,7 @@ footer {
 .contact, .social-media {
     text-decoration: none;
     color:#FFFCEF;
-    padding: 30px 30px 20px 30px;
+    padding: 20px;
 }
 
 /* CONTACT FORM */
