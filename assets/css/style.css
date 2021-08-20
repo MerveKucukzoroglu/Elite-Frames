@@ -71,9 +71,9 @@ a {
 }
 
 
-/* headings and <h2> */
+/* TITLE*/
 
-#title {
+.title {
     font-size: 170%;
     letter-spacing: 4px;
     line-height: 20px;
@@ -111,17 +111,17 @@ with adjustments to the original code) */
 
 /* palette icon style */
 
-#icon {
+.icon {
     padding: 10px 0 85px 0;
 }
 
-#icon a{
+.icon a{
    text-decoration: none;
    color: #2C2C2C;
    font-size: 400%;
 }
 
-#icon a:hover {
+.icon a:hover {
     color: #005C7E;
     font-size: 500%; 
 }
