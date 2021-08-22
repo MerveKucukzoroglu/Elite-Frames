@@ -258,9 +258,28 @@ footer {
         text-align: center;
         float: none;
         line-height: 80px;
+        /* margin:20px;
+        padding: 10px; */
+        clear: both;
+    }
+}
+
+/* for smaller screen sizes from 500px wide and down */
+@media screen and (max-width: 500px) {
+    .logo {
+        font-size: 400%;
+    }
+
+    .nav {
+        font-size: 100%;
+    }
+    .logo, .navbar {
+        text-align: center;
+        float: none;
+        line-height: 80px;
         margin:20px;
         padding: 10px;
         clear: both;
+        letter-spacing: 0;
     }
-
 }
