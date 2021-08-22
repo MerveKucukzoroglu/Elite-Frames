@@ -80,9 +80,7 @@ a {
 .welcome-content {
     padding: 15px;
 }
-/* HOME PAGE CIRCLE IMAGE
-(circle container idea from Love Running project
-with adjustments to the original code) */
+/* HOME PAGE CIRCLE IMAGE */
 #circle {
     width: 300px;
     height: 300px;
