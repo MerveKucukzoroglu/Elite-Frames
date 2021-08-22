@@ -1,26 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Tangerine:wght@700&display=swap');
 
-/* page body structure */
-
+/* PAGE BODY STRUCTURE */
 body {
     font-family: Lato, sans-serif;
     font-weight: 300%;
-
-    background-color: #FFFCEF;
-    color: #2C2C2C;
-
     text-align: center;
     line-height: 20px;
     letter-spacing: 2px;
+    
+    background-color: #FFFCEF;
+    color: #2C2C2C;
 }
 
-
-/* logo and navigation bar */
-
+/* LOGO AND NAVIGATION BAR */
 .logo {
     font-family: Tangerine, sans-serif;
     font-size: 600%;
-    
+
     text-align: left;
     float: left;
     margin: 20px;
@@ -70,9 +66,7 @@ a {
     color: #FFFCEF; 
 }
 
-
 /* TITLE*/
-
 .title {
     font-size: 170%;
     letter-spacing: 4px;
@@ -84,10 +78,9 @@ a {
     color: #005C7E;
 }
 
-/* home page cirle image
+/* HOME PAGE CIRCLE IMAGE
 (circle container idea from Love Running project
 with adjustments to the original code) */
-
 #circle {
     width: 300px;
     height: 300px;
@@ -110,31 +103,29 @@ with adjustments to the original code) */
 }
 
 /* palette icon style */
-
 .icon {
     padding: 10px 0 85px 0;
 }
 
 .icon a{
    text-decoration: none;
-   color: #2C2C2C;
    font-size: 400%;
+   color: #2C2C2C;
 }
 
 .icon a:hover {
-    color: #005C7E;
     font-size: 500%; 
+    color: #005C7E;
 }
 
-/* footer */
-
+/* FOOTER */
 footer {
     height: 60px;
-    background-color: #2C2C2C;
     position: fixed;
     bottom: 0;
     right: 0;
     width: 100%;
+    background-color: #2C2C2C;
 }
 
 .contact {
@@ -156,7 +147,6 @@ footer {
 }
 
 /* CONTACT FORM */
-
 #form-section {
     padding-bottom: 85px;
 }
@@ -178,10 +168,10 @@ footer {
 }
 
 .text-input, #textarea {
-    background: #005C7E;
-    color: #FFFCEF;
     width: 100%;
     margin: 5px 0 20px 0;
+    background: #005C7E;
+    color: #FFFCEF;
     border: 1px solid #FFFCEF;
     border-radius: 15px;
 }
@@ -211,7 +201,6 @@ footer {
 }
 
 /* FLEXBOX GALLERY */
-
 .flexbox {
     width: 66%;
     margin: auto;
