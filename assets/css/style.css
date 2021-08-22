@@ -3,7 +3,6 @@
 /* PAGE BODY STRUCTURE */
 body {
     font-family: Lato, sans-serif;
-    font-weight: 300%;
     text-align: center;
     line-height: 20px;
     letter-spacing: 2px;
@@ -75,7 +74,7 @@ a {
     text-transform: uppercase;
     margin: 40px;
     clear: both;
-    color: #005C7E;
+    color: #2C2C2C;
 }
 
 /* HOME PAGE CIRCLE IMAGE
@@ -218,3 +217,50 @@ footer {
     margin: 15px;
 }
 
+/* MEDIA QUERIES */
+/* for larger screen sizes from 1400px wide and down */
+@media screen and (max-width: 1400px) {
+    .flexbox {
+        width: 80%;
+    }
+
+    .flex-gallery {
+        padding: 5px;
+    }
+
+    .flex-item {
+        padding: 5px;
+    }
+}
+
+/* for large to medium screen sizes from 1110px wide and down */
+@media screen and (max-width: 1110px) {
+    .flexbox {
+        width: 100%;
+       
+    }
+
+    .flex-gallery {
+        padding: 5px;
+    }
+
+    .flex-item {
+        padding: 5px;
+    }
+}
+
+/* for medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    .logo {
+        font-size: 500%;
+    }
+    .logo, .navbar {
+        text-align: center;
+        float: none;
+        line-height: 80px;
+        margin:20px;
+        padding: 10px;
+        clear: both;
+    }
+
+}
