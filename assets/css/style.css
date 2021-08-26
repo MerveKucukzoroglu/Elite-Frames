@@ -6,7 +6,7 @@ body {
     text-align: center;
     line-height: 20px;
     letter-spacing: 2px;
-    
+
     background-color: #FFFCEF;
     color: #2C2C2C;
 }
@@ -81,7 +81,7 @@ a {
     padding: 15px;
 }
 /* HOME PAGE CIRCLE IMAGE */
-#circle {
+.circle {
     width: 300px;
     height: 300px;
 
@@ -95,7 +95,7 @@ a {
     border-radius: 50%;
 }
 
-#circle-bg {
+.circle-bg {
     background: url('../images/main-image.png') no-repeat center center;
     height: 100%;
     width: 100%;
@@ -147,7 +147,7 @@ footer {
 }
 
 /* CONTACT FORM */
-#form-section {
+.form-section {
     padding-bottom: 85px;
 }
 
@@ -196,8 +196,8 @@ footer {
 }
 
 .submit-button:hover {
-    background-color: #FFFCEF;
-    color: #005C7E;
+    background-color: #2C2C2C;
+    color: #FFFCEF;
 }
 
 /* FLEXBOX GALLERY */
@@ -259,8 +259,6 @@ footer {
         text-align: center;
         float: none;
         line-height: 80px;
-        /* margin:20px;
-        padding: 10px; */
         clear: both;
     }
 }
@@ -274,6 +272,7 @@ footer {
     .nav {
         font-size: 100%;
     }
+    
     .logo, .navbar {
         text-align: center;
         float: none;
