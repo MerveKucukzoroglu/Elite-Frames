@@ -81,6 +81,17 @@ This site is designed for interests of digital artists. To maintain their intere
 <li>CSS
 <ul><li>No errors found when testing through the official <a href="https://jigsaw.w3.org/css-validator/">(Jigsaw) CSS validator</a></li></ul>
 <img src="assets/images/css-validator.png">
+</li>
+
+</li>
+<li>LIGHTHOUSE
+<ul>
+    <li>Accessibility: 95</li>
+    <li>Best Practices: 93</li>
+    <li>SEO: 100</li> 
+    <li>Performance: 85</li>
+<a href="https://web.dev/measure/?gclid=CjwKCAjw95yJBhAgEiwAmRrutCE2RL8JLnCP8nbRjiuEMaiO0aeR-ExR5Lcv_KjkUFsXJ8IsTcTddRoCYtIQAvD_BwE">Lighthouse</a></li></ul>
+<img src="assets/images/lighthouse.png">
 
 </li>
 </ul>
