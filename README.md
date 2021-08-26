@@ -75,9 +75,13 @@ This site is designed for interests of digital artists. To maintain their intere
 <ul>
 <li>HTML
 <ul><li>No errors found when testing through the official <a href="https://validator.w3.org/">W3C validator</a></li></ul>
+<img src="assets/images/html-validator.png">
+
 </li>
 <li>CSS
 <ul><li>No errors found when testing through the official <a href="https://jigsaw.w3.org/css-validator/">(Jigsaw) CSS validator</a></li></ul>
+<img src="assets/images/css-validator.png">
+
 </li>
 </ul>
 
